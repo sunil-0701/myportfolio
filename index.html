@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+    .navbar{
+      animation: slideInRight 1s ease-in-out;
+    }
+      header h1{ 
+        animation: SlideDown 1.5s ease-in-out;
+      }  
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="bigC">
+    <header>
+        <h1>WELCOME TO MY PORTFOLIO</h1>
+       <strong><b><hr></b></strong>
+    </header>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+          <span class="close" onclick="closePopup()">&times;</span>
+          <p>If you're using a mobile phone, turn on desktop mode for a better experience.</p>
+      </div>
+  </div>
+
+   <nav class="navbar">
+       <a id="live" href="index.html">Home</a>
+       <a href="aboutme.html">About me</a>
+       <a href="skills.html">Skills</a>
+       <a href="certificates.html">Certfications</a>
+       <a href="contact.html">Let's connect</a>
+   </nav>
+   <div class="myname">
+       <h1><span style="font-weight: 200;">Hello </span>World !</h1>
+       <br>
+       <p>I'm Sunil <span style="font-weight: 150;">Amarthya</span><span class="dot">.</span></p>
+   </div>
+  </div>
+   <a id="next" href="aboutme.html" style="display: inline-block; margin-left: 90%;">Next</a>
+</body>
+</html>
